@@ -3,6 +3,7 @@ expenses = int(input("Enter your total monthly expenses: "))
 
 # Calculate monthly savings
 monthly_savings = income - expenses
+print(f"Your monthly savings are ${monthly_savings}")
 
 # Calculate projected savings after one year, with interest
 interest_rate = 0.05
