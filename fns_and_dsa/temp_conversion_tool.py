@@ -1,6 +1,8 @@
-CELSIUS_TO_FAHRENHEIT_FACTOR= 9 / 5
-FAHRENHEIT_TO_CELSIUS_FACTOR= 5 / 9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 
+print("Fahrenheit to Celsius factor:", FAHRENHEIT_TO_CELSIUS_FACTOR)
+print("Celsius to Fahrenheit factor:", CELSIUS_TO_FAHRENHEIT_FACTOR)
 
 # Creating a Function that takes °f and uses the formula to convert °c
 def convert_to_celsius(fahrenheit):
